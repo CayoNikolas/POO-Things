@@ -1,5 +1,3 @@
-import javax.imageio.stream.ImageOutputStream;
-
 public class Funcionario {
     private String nome;
     private double brutoSalario;

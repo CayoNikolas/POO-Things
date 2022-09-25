@@ -6,8 +6,8 @@ public class App {
         Funcionario fun = new Funcionario("Joao Silva", 6000.00, 1000.00);
 
         System.out.println("Funcionário: " +fun);
-        System.out.println("Qual porcentagem deseja aumentar? ");
-        double porcentagem = 10.0;
+        System.out.println("Aumentando a porcentagem de 10%...");
+        double porcentagem = 0.1;
         fun.aumentarSalario(porcentagem);
 
         System.out.println("Atualização: " +fun);

@@ -14,6 +14,6 @@ public class Funcionario {
     }
 
     public String toString(){
-        return "Funcionário: " + nome + ", $ " + (brutoSalario-imposto);
+        return nome + ", $ " + (brutoSalario-imposto);
     }
 }

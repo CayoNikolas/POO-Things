@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class App {
+public class Main03 {
     public static void main(String[] args) throws Exception {
         Locale.setDefault(Locale.US);
         Funcionario fun = new Funcionario("Joao Silva", 6000.00, 1000.00);
@@ -10,6 +10,7 @@ public class App {
         double porcentagem = 0.1;
         fun.aumentarSalario(porcentagem);
 
+        System.out.println();
         System.out.println("Atualização: " +fun);
     }
 }

@@ -1,9 +1,9 @@
 public class Main06 {
     public static void main(String[] args) throws Exception {
-        String cpf1 = "12345";
-        String cpf2 = "54321";
-        String cnpj1 = "67891";
-        String cnpj2 = "19876";
+        String cpf1 = "12345678901";
+        String cpf2 = "5432109876";
+        String cnpj1 = "6789112343256678";
+        String cnpj2 = "12345678901234";
         Person e1 = new PersonIndividual(cpf1);
         Person e2 = new PersonLegal(cnpj1);
         Person e3 = new PersonIndividual(cpf2);

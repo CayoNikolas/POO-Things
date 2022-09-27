@@ -16,4 +16,28 @@ public class Funcionario {
     public String toString(){
         return nome + ", $ " + (brutoSalario-imposto);
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getBrutoSalario() {
+        return brutoSalario;
+    }
+
+    public void setBrutoSalario(double brutoSalario) {
+        this.brutoSalario = brutoSalario;
+    }
+
+    public double getImposto() {
+        return imposto;
+    }
+
+    public void setImposto(double imposto) {
+        this.imposto = imposto;
+    }
 }

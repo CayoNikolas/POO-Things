@@ -9,7 +9,7 @@ public class PersonLegal extends Person{
     @Override
     public boolean isValid(){
         boolean valid;
-        if (cnpj.length() == 11){
+        if (cnpj.length() == 14){
             valid = true;
         } else {
             valid = false;
